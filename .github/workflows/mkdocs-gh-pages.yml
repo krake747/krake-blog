@@ -1,4 +1,4 @@
-name: publish 
+name: krake-blog 
 
 on:
   push:
@@ -6,7 +6,10 @@ on:
 
 permissions:
   contents: write
-  
+
+env:
+  cache_id:
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
