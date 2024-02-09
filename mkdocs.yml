@@ -2,6 +2,7 @@ site_name: My Docs
 
 theme:
   name: material
+  language: en
   palette:
     scheme: slate
     primary: teal
@@ -9,3 +10,16 @@ theme:
   font:
     text: Montserrat
     code: JetBrains Mono
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >-
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
+copyright: >
+  Copyright &copy; 2024 Kevin Kraemer –
+  <a href="#__consent">Change cookie settings</a>
