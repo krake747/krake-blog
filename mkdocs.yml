@@ -6,3 +6,6 @@ theme:
     scheme: slate
     primary: teal
     accent: red
+  font:
+    text: Montserrat
+    code: JetBrains Mono
