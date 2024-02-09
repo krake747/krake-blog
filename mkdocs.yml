@@ -1,4 +1,10 @@
-site_name: My Docs
+site_name: KrakeBlog
+site_description: A blog hosted on GitHub Pages
+site_author: Kevin Kraemer
+site_url: https://krake747.github.io/krake-blog/
+
+repo_name: krake747/krake-blog
+repo_url: https://github.com/krake747/krake-blog
 
 theme:
   name: material
@@ -23,3 +29,6 @@ extra:
 copyright: >
   Copyright &copy; 2024 Kevin Kraemer –
   <a href="#__consent">Change cookie settings</a>
+
+plugins:
+  - blog
