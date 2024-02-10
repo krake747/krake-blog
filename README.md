@@ -8,7 +8,7 @@ Whether I will actually produce blog content remains to be seen.
 ## Setup
 
 ```bash
-py -m venv .venv`
+py -m venv .venv
 pip install mkdocs-material
 ```
 

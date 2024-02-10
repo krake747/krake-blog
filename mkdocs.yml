@@ -10,9 +10,20 @@ theme:
   name: material
   language: en
   palette:
-    scheme: slate
-    primary: teal
-    accent: red
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: red
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
   font:
     text: Montserrat
     code: JetBrains Mono
