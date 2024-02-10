@@ -2,7 +2,7 @@
 
 I was generally curious about static site generators. I thought why not give it a go and create a simple blog.
 I am using Material for MkDocs instead of creating my own site, because of its many features and community support.
-In addtion, Material for MkDocs is easy to setup and deploy to GitHub Pages.
+In addition, Material for MkDocs is easy to setup and deploy to GitHub Pages.
 
 Now whether I will actually produce blog content remains to be seen.
 
