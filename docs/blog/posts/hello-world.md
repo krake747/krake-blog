@@ -5,6 +5,10 @@ authors:
   - krake747
 categories:
   - MkDocs
+tags:
+  - HTML5
+  - JavaScript
+  - CSS
 ---
 
 # Hello world
