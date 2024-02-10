@@ -27,11 +27,20 @@ theme:
   font:
     text: Montserrat
     code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
+    - navigation.footer
 
-copyright: >
-  Copyright &copy; 2024 Kevin Kraemer
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/krake747
+      name: Krake747 on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kevin-kraemer-5b1a0583/
+      name: Kevin Kraemer on LinkedIn
 
 # extra:
 #   consent:
@@ -42,10 +51,47 @@ copyright: >
 #       find what they're searching for. With your consent, you're helping us to
 #       make our documentation better.
 
-# copyright: >
-#   Copyright &copy; 2024 Kevin Kraemer –
+copyright: >
+  Copyright &copy; 2024 Kevin Kraemer
 #   <a href="#__consent">Change cookie settings</a>
-
 plugins:
   - tags
   - blog
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
