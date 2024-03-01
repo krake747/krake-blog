@@ -1,21 +1,19 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Hey there! I am Kevin from Luxembourg.
 
-## Commands
+I studied banking and finance in Innsbruck, Austria, where I discovered my passion for programming.
+When I returned back home I started out as a financial risk analyst for risk and asset managers.
+Now, after a few years I have fully transitioned into a full stack developer.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+My current focus for backend solutions is the .NET ecosystem and for the frontend I use Angular.  
 
-## Project layout
+In addition, I am a hobby cyclist who at the current moment prefers to go on gravel rides.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+The current bike collection:
 
-## Math
+- Trek Top Fuel SL 9.8 Project One (2017)
+- Trek Powerfly 7 (2022)
+- Trek Checkpoint SLR 6 Project One (2024)
 
-$$ x = y + 2$$
+Still missing a road bike to complete the collection though.
