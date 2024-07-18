@@ -6,6 +6,18 @@ site_url: https://krake747.github.io/krake-blog/
 repo_name: krake747/krake-blog
 repo_url: https://github.com/krake747/krake-blog
 
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
+  - Templates:
+      - template/index.md
+      - Docker:
+          - template/docker/mssql.md
+          - template/docker/postgresql.md
+          - template/docker/redis.md
+          - template/docker/seq.md
+
 theme:
   name: material
   language: en
@@ -32,6 +44,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.footer
+    - navigation.indexes
+    - content.code.copy
 
 extra:
   social:
@@ -56,7 +70,8 @@ copyright: >
 #   <a href="#__consent">Change cookie settings</a>
 plugins:
   - tags
-  - blog
+  - blog:
+      blog_dir: blog
   - search:
       lang: en
 
