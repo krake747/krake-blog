@@ -12,6 +12,8 @@ nav:
       - blog/index.md
   - Templates:
       - template/index.md
+      - Angular:
+          - template/angular/prettier.md
       - Docker:
           - template/docker/mssql.md
           - template/docker/postgresql.md
