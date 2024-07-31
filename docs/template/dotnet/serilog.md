@@ -11,7 +11,7 @@ dotnet add package Serilog.Sinks.Console
 
 Afterwards setup Serilog in the `Program.cs` file.
 
-```cs  hl_lines="9 13"
+```cs  hl_lines="9 14"
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
