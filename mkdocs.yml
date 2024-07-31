@@ -19,6 +19,8 @@ nav:
           - template/docker/postgresql.md
           - template/docker/redis.md
           - template/docker/seq.md
+      - .NET:
+          - template/dotnet/serilog.md
 
 theme:
   name: material
@@ -48,6 +50,7 @@ theme:
     - navigation.footer
     - navigation.indexes
     - content.code.copy
+    - content.code.annotate
 
 extra:
   social:
@@ -98,16 +101,18 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.highlight
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.smartsymbols
-  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
   - pymdownx.tilde
 
 extra_javascript:

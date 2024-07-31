@@ -1,0 +1,52 @@
+// cSpell Settings
+{
+    // Version of the setting file.  Always 0.2
+    "version": "0.2",
+    // language - current active spelling language
+    "language": "en",
+    // Specify file types to spell check.
+    "enabledLanguageIds": [
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "markdown",
+        "php",
+        "plaintext",
+        "typescript",
+        "typescriptreact",
+        "sql"
+    ],
+    // words - list of words to be always considered correct
+    "words": [
+        "appsettings",
+        "arithmatex",
+        "betterem",
+        "datalust",
+        "fontawesome",
+        "githubusercontent",
+        "inlinehilite",
+        "javascripts",
+        "katex",
+        "Kraemer",
+        "krake",
+        "Krake",
+        "mathjax",
+        "mkdirp",
+        "mkdocs",
+        "mssql",
+        "Parens",
+        "Powerfly",
+        "pymdownx",
+        "Serilog",
+        "smartsymbols",
+        "streetsidesoftware",
+        "superfences",
+        "tasklist",
+        "tsmerge",
+        "twemoji",
+        "venv",
+        "visualstudio",
+        "vsmarketplacebadge"
+    ]
+}
