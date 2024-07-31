@@ -27,7 +27,15 @@ var app = builder.Build();
 
 app.UseSerilogRequestLogging();
 
-app.Run();
+try
+{
+    app.Run();
+}
+finally
+{
+    Log.CloseAndFlush();
+}
+
 ```
 
 1. `UseSerilog` configures serilog as the only logging provider.
