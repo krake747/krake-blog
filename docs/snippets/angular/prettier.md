@@ -8,7 +8,24 @@ npm install -D prettier
 
 ## Setup
 
-### Single App
+### Config
+
+```json title=".prettierrc"
+{
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "bracketSameLine": false,
+    "arrowParens": "avoid",
+    "htmlWhitespaceSensitivity": "ignore"
+}
+```
+
+### Application
 
 ```json hl_lines="8 9"
 {
@@ -24,7 +41,7 @@ npm install -D prettier
 }
 ```
 
-### Workspace
+### Workspace Project
 
 ```json hl_lines="8 9"
 {

@@ -10,17 +10,17 @@ nav:
   - Home: index.md
   - Blog:
       - blog/index.md
-  - Templates:
-      - template/index.md
+  - Snippets:
+      - snippets/index.md
       - Angular:
-          - template/angular/prettier.md
+          - snippets/angular/prettier.md
       - Docker:
-          - template/docker/mssql.md
-          - template/docker/postgresql.md
-          - template/docker/redis.md
-          - template/docker/seq.md
+          - snippets/docker/mssql.md
+          - snippets/docker/postgresql.md
+          - snippets/docker/redis.md
+          - snippets/docker/seq.md
       - .NET:
-          - template/dotnet/serilog.md
+          - snippets/dotnet/serilog.md
 
 theme:
   name: material
