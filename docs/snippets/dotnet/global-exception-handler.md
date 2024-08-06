@@ -2,7 +2,9 @@
 
 ## Web API Project
 
-```csharp title="GlobalExceptionHandler.cs"
+Create the `GlobalExceptionHandler` using the `IExceptionHandler`.
+
+```cs title="GlobalExceptionHandler.cs"
 internal sealed class GlobalExceptionHandler(ILogger<GlobalExceptionHandler> logger)
     : IExceptionHandler
 {
@@ -33,8 +35,25 @@ internal static partial class LoggerExtensions
 }
 ```
 
-## Dependency Injection
+Add the `GlobalExceptionHandler` to the service collection and for production environment add the `UseExceptionHandler` in the middleware pipeline.
 
-```csharp title="Program.cs"
+```cs title="Program.cs" hl_lines="3 9 13"
+var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddExceptionHandler<GlobalExceptionHandler>();
+
+var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseDeveloperExceptionPage(); // (1)
+}
+else
+{
+    app.UseExceptionHandler();
+}
+
+app.Run();
 ```
+
+1. `UseDeveloperExceptionPage` middleware captures unhandled exceptions from the pipeline & generate HTML error response.
