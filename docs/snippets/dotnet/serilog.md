@@ -1,6 +1,6 @@
 # Serilog
 
-## Web Api Project
+## Web API Project
 
 Add these two Nuget packages to the .NET project.
 
