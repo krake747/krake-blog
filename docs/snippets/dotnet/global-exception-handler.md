@@ -1,3 +1,8 @@
+---
+hide:
+  - toc
+---
+
 # Global Exception Handler
 
 ## Web API Project

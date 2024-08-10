@@ -20,6 +20,7 @@ nav:
           - snippets/docker/redis.md
           - snippets/docker/seq.md
       - .NET:
+          - snippets/dotnet/feature-flags.md
           - snippets/dotnet/global-exception-handler.md
           - snippets/dotnet/serilog.md
 
