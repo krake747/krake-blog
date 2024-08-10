@@ -4,9 +4,9 @@
 
 ```docker
 services:
-  [name].database.mssql:
+  <name>.database.mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: [Name].Database.Sql
+    container_name: <name>.Database.Sql
     environment:
       - ACCEPT_EULA=true
       - MSSQL_SA_PASSWORD=Admin#123
@@ -19,12 +19,12 @@ services:
 
 ```docker
 volumes:
-  volume.[name].database.mssql
+  volume.<name>.database.mssql
 
   services:
-  [name].database.mssql:
+  <name>.database.mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: [Name].Database.Sql
+    container_name: <name>.Database.Sql
     environment:
       - ACCEPT_EULA=true
       - MSSQL_SA_PASSWORD=Admin#123
@@ -32,16 +32,16 @@ volumes:
     ports:
       - "1433:1433"
     volumes:
-      - volume.[name].database.mssql:/var/opt/mssql # Docker  
+      - volume.<name>.database.mssql:/var/opt/mssql # Docker  
 ```
 
 ## Local Volume
 
 ```docker
   services:
-  [name].database.mssql:
+  <name>.database.mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: [Name].Database.Sql
+    container_name: <name>.Database.Sql
     environment:
       - ACCEPT_EULA=true
       - MSSQL_SA_PASSWORD=Admin#123

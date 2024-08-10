@@ -2,9 +2,9 @@
 
 ```docker
 services:
-  [name].seq:
+  <name>.seq:
     image: datalust/seq:latest
-    container_name: [Name].Seq
+    container_name: <name>.Seq
     environment:
       - ACCEPT_EULA=Y
     ports:

@@ -2,11 +2,11 @@
 
 ```docker
 services:
-  [name].database.postgresql:
+  <name>.database.postgresql:
     image: postgres:latest
-    container_name: [Name].Database.PostgreSQL
+    container_name: <name>.Database.PostgreSQL
     environment:
-      - POSTGRES_DB=[name]
+      - POSTGRES_DB=<name>
       - POSTGRES_USER=sa
       - POSTGRES_PASSWORD=Admin#123
     ports:
