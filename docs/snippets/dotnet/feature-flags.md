@@ -26,11 +26,11 @@ builder.Services.AddFeatureManagement(builder.Configuration.GetSection("FeatureF
 
 var app = builder.Build();
 
-app.MapGet("feature-a", static () => Results.Ok("Hello from Feature A"));
+app.MapGet("feature-a", static () => Results.Ok("Hello from Feature A")); // (2)
 
 app.MapGet("feature-b", static async ([FromServices] IFeatureManager manager) =>
 {
-    if (await manager.IsEnabledAsync("FeatureB") is false) // (2)
+    if (await manager.IsEnabledAsync("FeatureB") is false) // (3)
     {
         return Results.NotFound();
     }
@@ -39,7 +39,7 @@ app.MapGet("feature-b", static async ([FromServices] IFeatureManager manager) =>
 });
 
 app.MapGet("feature-c", () => Results.Ok("Hello from Feature C"))
-    .AddEndpointFilter(static async (context, next) => // (3)
+    .AddEndpointFilter(static async (context, next) => // (4)
     {
         var featureManager = context.HttpContext.RequestServices.GetRequiredService<IFeatureManager>();
         if (await featureManager.IsEnabledAsync("FeatureC") is false)
@@ -51,7 +51,7 @@ app.MapGet("feature-c", () => Results.Ok("Hello from Feature C"))
     });
 
 app.MapGet("feature-d", () => Results.Ok("Hello from Feature D"))
-    .AddEndpointFilter<FeatureFilter>(); // (4)
+    .AddEndpointFilter<FeatureFilter>(); // (5)
 
 app.Run();
 
@@ -74,9 +74,10 @@ namespace Snippets.FeatureFlags
 ```
 
 1. Registers feature management and links it to the "FeatureFlags" section in the configuration.
-2. Controls access to an endpoint based on the "FeatureB" flag via `IFeatureManager`.
-3. Uses an inline filter to manage access based on the "FeatureC" flag.
-4. Uses a custom filter class to manage access based on the "FeatureD" flag.
+2. Does not use feature flags.
+3. Controls access to an endpoint based on the "FeatureB" flag via `IFeatureManager`.
+4. Uses an inline filter to manage access based on the "FeatureC" flag.
+5. Uses a custom filter class to manage access based on the "FeatureD" flag.
 
 Add the following section to the `appsettings.[env].json` configuration files which will allow you to enable and/or 
 disable feature during runtime.
