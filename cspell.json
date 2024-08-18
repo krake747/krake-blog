@@ -35,6 +35,7 @@
         "mkdirp",
         "mkdocs",
         "mssql",
+        "Npgsql",
         "Parens",
         "Powerfly",
         "pymdownx",

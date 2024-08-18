@@ -1,11 +1,16 @@
 ---
 hide:
   - toc
+tags:
+  - .NET
+  - C#
 ---
 
 # Feature Flags
 
-## Web API Project
+The repository for these snippets can be found here: [Krake.Snippets.Dapper](https://github.com/krake747/krake-blog-snippets/tree/main/Krake.Snippets.Dapper)
+
+## .NET Minimal API Project
 
 Add this Nuget packages to the .NET project.
 

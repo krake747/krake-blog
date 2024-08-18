@@ -1,11 +1,14 @@
 ---
 hide:
   - toc
+tags:
+  - .NET
+  - C#
 ---
 
 # Serilog
 
-## Web API Project
+## .NET Minimal API Project
 
 Add these two Nuget packages to the .NET project.
 

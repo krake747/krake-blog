@@ -1,11 +1,14 @@
 ---
 hide:
   - toc
+tags:
+  - .NET
+  - C#
 ---
 
 # Global Exception Handler
 
-## Web API Project
+## .NET Minimal API Project
 
 Create the `GlobalExceptionHandler` using the `IExceptionHandler`.
 
