@@ -90,7 +90,7 @@ namespace Krake.Snippets.Dapper
 
 ## Dapper in Action
 
-```cs title="Models.cs"
+```cs title="Bookstore.cs"
 public sealed class Author
 {
     public int Id { get; set; }
