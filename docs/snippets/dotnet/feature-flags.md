@@ -8,7 +8,7 @@ tags:
 
 # Feature Flags
 
-The repository for these snippets can be found here: [Krake.Snippets.Dapper](https://github.com/krake747/krake-blog-snippets/tree/main/Krake.Snippets.Dapper)
+The repository for these snippets can be found here: [Krake.Snippets.FeatureFlags](https://github.com/krake747/krake-blog-snippets/tree/main/Krake.Snippets.FeatureFlags)
 
 ## .NET Minimal API Project
 
