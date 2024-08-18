@@ -22,7 +22,7 @@ nav:
       - .NET:
           - snippets/dotnet/dapper.md
           - snippets/dotnet/feature-flags.md
-          - snippets/dotnet/global-exception-handler.md
+          - snippets/dotnet/global-exceptions.md
           - snippets/dotnet/serilog.md
 
 theme:

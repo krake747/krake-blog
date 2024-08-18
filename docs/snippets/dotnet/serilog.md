@@ -8,6 +8,9 @@ tags:
 
 # Serilog
 
+The repository for these snippets can be found here: [Krake.Snippets.Serilog](https://github.com/krake747/krake-blog-snippets/tree/main/Krake.Snippets.Serilog)
+
+
 ## .NET Minimal API Project
 
 Add these two Nuget packages to the .NET project.

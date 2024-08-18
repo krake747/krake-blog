@@ -6,7 +6,10 @@ tags:
   - C#
 ---
 
-# Global Exception Handler
+# Global Exceptions
+
+The repository for these snippets can be found here: [Krake.Snippets.GlobalExceptions](https://github.com/krake747/krake-blog-snippets/tree/main/Krake.Snippets.GlobalExceptions)
+
 
 ## .NET Minimal API Project
 
