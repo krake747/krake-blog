@@ -13,6 +13,8 @@ You can visit the blog on [krake-blog](https://krake747.github.io/krake-blog/)
 ```bash
 py -m venv .venv
 pip install mkdocs-material
+or
+pip install -r requirements.txt
 ```
 
 ## How to upgrade
