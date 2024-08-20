@@ -91,6 +91,14 @@ namespace Krake.Snippets.Dapper
 ## Dapper in Action
 
 ```cs title="Bookstore.cs"
+public sealed class Book
+{
+    public string Isbn { get; set; } = string.Empty;
+    public string Title { get; set; } = string.Empty;
+    public decimal Price { get; set; }
+    public List<Author> Authors { get; set; } = [];
+}
+
 public sealed class Author
 {
     public int Id { get; set; }
