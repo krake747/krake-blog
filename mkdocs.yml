@@ -25,7 +25,7 @@ nav:
           - snippets/dotnet/global-exceptions.md
           - snippets/dotnet/serilog.md
       - Git:
-          - snippets/git/commands.md
+          - snippets/git/basics.md
 
 theme:
   name: material
