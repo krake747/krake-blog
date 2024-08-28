@@ -36,6 +36,7 @@
         "mkdocs",
         "mssql",
         "Npgsql",
+        "oneline",
         "Parens",
         "Powerfly",
         "pymdownx",
