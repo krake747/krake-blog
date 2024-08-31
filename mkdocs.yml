@@ -16,6 +16,7 @@ nav:
           - snippets/angular/prettier.md
       - Docker:
           - snippets/docker/mssql.md
+          - snippets/docker/papercut.md
           - snippets/docker/postgresql.md
           - snippets/docker/redis.md
           - snippets/docker/seq.md

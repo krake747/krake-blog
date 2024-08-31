@@ -5,9 +5,11 @@ hide:
 
 # MS SQL
 
+**Microsoft SQL Server** (MSSQL) is a relational database management system that stores and manages data using structured query language (SQL). It provides tools for handling data operations, queries, and transactions, making it a robust choice for building and maintaining databases in various applications.
+
 ## Default
 
-```docker
+```yaml
 services:
   <name>.database.mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
@@ -22,7 +24,7 @@ services:
 
 ## Docker Volume
 
-```docker
+```yaml
 volumes:
   volume.<name>.database.mssql
 
@@ -42,7 +44,7 @@ volumes:
 
 ## Local Volume
 
-```docker
+```yaml
   services:
   <name>.database.mssql:
     image: mcr.microsoft.com/mssql/server:2022-latest
