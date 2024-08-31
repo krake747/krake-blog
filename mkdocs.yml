@@ -26,6 +26,9 @@ nav:
           - snippets/dotnet/serilog.md
       - Git:
           - snippets/git/basics.md
+          - snippets/git/strategy.md
+      - GitHub:
+          - snippets/github/basics.md
 
 theme:
   name: material
