@@ -62,4 +62,20 @@ What is the `HEAD`?
 `HEAD` refers to the latest commit that your current branch is pointing to. 
 It's essentially a reference to the current branch, indicating where you are in the commit history.
 
-## 
+## Git Remote
+
+| Command                                                      | Purpose                                                                                          |
+| ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
+| `git remote add origin <remote_url>`                         | Add a remote repository URL for your local repository                                            |
+| `git branch -M main`                                         | Rename the current branch to `main`                                                              |
+| `git remote -v`                                              | List all configured remote repositories and their URLs                                           |
+| `git push -u origin main`                                    | Push local `main` branch to the remote repository and set it as the default upstream branch      |
+| `git push`                                                   | Push changes from the current branch to the remote repository                                    |
+| `git push -u origin <branch_name>`                           | Push the specified branch to the remote repository and set it as the default upstream branch     |
+| `git config --global --add --bool push.autoSetupRemote true` | Automatically set up tracking of branches when pushing them for the first time                   |
+| `git checkout <filename>`                                    | Discard changes in a specific file and revert to the last committed version                      |
+| `git checkout <*.cs>`                                        | Discard changes in all files with a `.cs` extension (using wildcard)                             |
+| `git checkout <**/*.cs>`                                     | Discard changes in all `.cs` files recursively in subdirectories (using wildcard)                |
+| `git fetch`                                                  | Download updates from the remote repository without merging them into your current branch        |
+| `git pull`                                                   | Fetch and merge changes from the remote repository into your current branch                      |
+| `git pull origin <branch_name>`                              | Fetch and merge changes from a specific branch in the remote repository into your current branch |
