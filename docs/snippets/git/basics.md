@@ -79,3 +79,11 @@ It's essentially a reference to the current branch, indicating where you are in 
 | `git fetch`                                                  | Download updates from the remote repository without merging them into your current branch        |
 | `git pull`                                                   | Fetch and merge changes from the remote repository into your current branch                      |
 | `git pull origin <branch_name>`                              | Fetch and merge changes from a specific branch in the remote repository into your current branch |
+| `git clone <repo_url>`                                       | Create a local copy of a remote repository                                                       |
+
+## Git Aliases
+
+| Command                                                           | Purpose                                                                                                        |
+| ----------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| `git config --global alias.co "checkout"`                         | Create a global alias co for the git checkout command                                                          |
+| `git config --global alias.copm '!git checkout main && git pull'` | Create a global alias copm to switch to the main branch and pull the latest changes from the remote repository |
