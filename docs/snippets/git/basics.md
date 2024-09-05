@@ -52,6 +52,7 @@ Installing [Git]([Git](https://git-scm.com/)) version control.
 | `git checkout -b <branch_name>` | Create and switch to a new branch                                   |
 | `git checkout <branch_name>`    | Switch to an existing branch                                        |
 | `git merge <branch_name>`       | Merge `<branch_name>` into the current branch                       |
+| `git rebase <branch_name>`      | Reapply commits from your current branch on top of `<branch_name>`  |
 | `git branch --list`             | List all local branches                                             |
 | `git branch -d <branch_name>`   | Delete the specified branch (if merged)                             |
 | `git branch -D <branch_name>`   | Force delete the specified branch                                   |
