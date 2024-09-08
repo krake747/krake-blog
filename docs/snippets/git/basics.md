@@ -7,7 +7,7 @@ tags:
 
 # Git Basics
 
-Installing [Git]([Git](https://git-scm.com/)) version control.
+Installing [Git](https://git-scm.com/) version control.
 
 ## Setup
 

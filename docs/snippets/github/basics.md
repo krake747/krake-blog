@@ -8,7 +8,7 @@ tags:
 
 # GitHub
 
-You can created an account here on [https://github.com/](GitHub).
+You can created an account here on [GitHub](https://github.com/).
 
 ## Setup Authentication
 
