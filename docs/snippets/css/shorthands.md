@@ -7,7 +7,7 @@ show:
 
 Using CSS shorthand properties allows you to set multiple related CSS properties in a single line. This makes CSS code more concise and readable.
 
-## Summary Table
+## Summary
 
 | Property          | Shorthand Example                                        |
 | ----------------- | -------------------------------------------------------- |
