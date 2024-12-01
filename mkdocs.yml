@@ -14,6 +14,8 @@ nav:
       - snippets/index.md
       - Angular:
           - snippets/angular/prettier.md
+      - Advent of Code:
+          - snippets/aoc/library.md
       - CSS:
           - snippets/css/shorthands.md
       - Docker:
@@ -52,7 +54,7 @@ theme:
         icon: material/brightness-7
         name: Switch to dark mode
   font:
-    text: Montserrat
+    text: Inter
     code: JetBrains Mono
   icon:
     repo: fontawesome/brands/github

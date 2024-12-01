@@ -19,6 +19,7 @@
     ],
     // words - list of words to be always considered correct
     "words": [
+        "adventofcode",
         "appsettings",
         "arithmatex",
         "betterem",
@@ -34,11 +35,13 @@
         "Kraemer",
         "krake",
         "Krake",
+        "LINQ",
         "mathjax",
         "mkdirp",
         "mkdocs",
         "mssql",
         "Npgsql",
+        "nums",
         "oneline",
         "Papercut",
         "Parens",
