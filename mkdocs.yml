@@ -17,10 +17,14 @@ nav:
       - Advent of Code:
           - snippets/aoc/library.md
       - Docker:
+          - snippets/docker/docker-cli.md
+          - snippets/docker/jaeger.md
+          - snippets/docker/mongodb.md
           - snippets/docker/mssql.md
           - snippets/docker/papercut.md
           - snippets/docker/postgresql.md
           - snippets/docker/redis.md
+          - snippets/docker/rabbitmq.md
           - snippets/docker/seq.md
       - .NET:
           - snippets/dotnet/dapper.md
