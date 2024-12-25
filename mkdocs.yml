@@ -16,8 +16,6 @@ nav:
           - snippets/angular/prettier.md
       - Advent of Code:
           - snippets/aoc/library.md
-      - CSS:
-          - snippets/css/shorthands.md
       - Docker:
           - snippets/docker/mssql.md
           - snippets/docker/papercut.md
