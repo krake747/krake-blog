@@ -36,7 +36,8 @@ nav:
           - snippets/git/strategy.md
       - GitHub:
           - snippets/github/basics.md
-
+      - Linux:
+          - snippets/linux/basics.md
 theme:
   name: material
   language: en
