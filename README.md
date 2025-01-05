@@ -17,6 +17,8 @@ or
 pip install -r requirements.txt
 ```
 
+Note: Run `source .venv/bin/activate` to activate the vritaul environment on Linux.
+
 ## How to upgrade
 
 ```bash
@@ -28,11 +30,11 @@ For full documentation visit
 
 [![Built with Material for MkDocs](https://img.shields.io/badge/Material_for_MkDocs-526CFE?style=for-the-badge&logo=MaterialForMkDocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
 
- and [MkDocs](https://www.mkdocs.org).
+and [MkDocs](https://www.mkdocs.org).
 
 ## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+-   `mkdocs new [dir-name]` - Create a new project.
+-   `mkdocs serve` - Start the live-reloading docs server.
+-   `mkdocs build` - Build the documentation site.
+-   `mkdocs -h` - Print help message and exit.
